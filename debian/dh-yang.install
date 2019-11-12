@@ -1,0 +1,2 @@
+scripts/yang.pm usr/share/perl5/Debian/Debhelper/Sequence
+scripts/dh_yang usr/bin

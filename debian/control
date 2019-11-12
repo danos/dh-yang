@@ -1,0 +1,16 @@
+Source: dh-yang
+Section: admin
+Priority: optional
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Uploaders: Andrew Johnson <ajohnso@brocade.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+
+Package: dh-yang
+Architecture: all
+Enhances: debhelper
+Depends: ${misc:Depends}, ${perl:Depends}, debhelper
+Description: Debian Helper for managing the YANG dependencies
+ Adds a helper sequence to dh to provide a substitution variable
+ for managing YANG dependencies.
+
